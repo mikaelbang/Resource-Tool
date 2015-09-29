@@ -16,6 +16,7 @@ class ServerController extends Controller
     public function index()
     {
         //
+        return 'list of servers';
     }
 
     /**

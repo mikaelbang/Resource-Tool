@@ -16,6 +16,7 @@ class ProjectController extends Controller
     public function index()
     {
         // Lists all projects
+        return 'List of projects';
     }
 
     /**
