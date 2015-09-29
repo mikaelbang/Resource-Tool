@@ -1,0 +1,1 @@
+{"version":3,"sources":["test.scss"],"names":[],"mappings":"AAEA;EACE,eAFc,EACV","file":"test.css","sourcesContent":["\r\n$color : #ffffff;\r\n.test{\r\n  color: $color;\r\n}"],"sourceRoot":"/source/"}
