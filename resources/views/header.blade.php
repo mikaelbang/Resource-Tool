@@ -6,8 +6,8 @@
     <title>Project</title>
     <meta name="description" content="Resource-Tool">
     <meta name="author" content="Resource-Tool">
-    <link href="/Resource-Tool/resources/views/css/bootstrap.css" rel="stylesheet">
-    <link href="/Resource-Tool/resources/views/css/main.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <div class="container-fluid text-center wrapper">
@@ -50,6 +50,6 @@
         @yield('content')
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="/Resource-Tool/resources/views/js/bootstrap.js"></script>
+    <script src="/Resource-Tool/public/js/bootstrap.min.js"></script>
 </body>
 </html>
