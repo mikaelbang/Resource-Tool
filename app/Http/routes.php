@@ -1,6 +1,6 @@
 <?php
 
-get('/', 'AuthController@index');
+get('/', 'ProjectController@index');
 
 get('project', 'ProjectController@index');
 
