@@ -1,3 +1,4 @@
+
 var elixir = require('laravel-elixir');
 
 /*
@@ -14,3 +15,14 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.sass('test.scss');
 });
+
+var gulp = require('gulp')
+    sass = require('gulp-ruby-sass');
+
+gulp.task('default', function(){
+    console.log("Hello World");
+});
+
+gulp.task('styles', function(){
+});
+
